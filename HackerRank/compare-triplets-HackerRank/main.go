@@ -19,8 +19,8 @@ func compareTriplets(a []int32, b []int32) []int32 {
 }
 
 func main() {
-	a := []int32{13, 46, 7}
-	b := []int32{3, 6, 10}
+	a := []int32{13, 46, 7, 4}
+	b := []int32{3, 6, 10, 11}
 
 	fmt.Println(compareTriplets(a, b))
 }
