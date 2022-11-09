@@ -30,7 +30,7 @@ func mergeSort(leftArr, rightArr []int) []int {
 		}
 	}
 	for ; lIndex < len(leftArr); lIndex++ {
-		fmt.Println("The Left Array ->", leftArr, "The Right Array ->", rightArr)
+		fmt.Println("The Lef\"The Left Array ->\"t Array ->", leftArr, "The Right Array ->", rightArr)
 		results = append(results, leftArr[lIndex])
 	}
 	for ; rIndex < len(rightArr); rIndex++ {
